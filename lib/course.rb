@@ -82,7 +82,7 @@ class Schedule
     @@all << self
   end
   def self.display_schedule
-    cnt = 10
+    # cnt = 10
     @@all.each do |schedule|
       if schedule.week
         puts "Week: #{schedule.week}"
